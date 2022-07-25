@@ -1,0 +1,9 @@
+listen --> set the port
+
+middle ware --> app.use
+--> a function which is run everytime you visit a route
+--> usually used for auth
+
+/:postID ---> Dynamic Parameter in POST REQUEST 
+         ---> Use request.params.postID to access it
+         
